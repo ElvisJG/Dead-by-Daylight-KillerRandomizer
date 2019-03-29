@@ -1,5 +1,5 @@
 import tkinter as Tk
-from random import *
+from random import randint
 
 frame = Tk.Tk()
 
@@ -28,7 +28,7 @@ def roll6():
         11: "Freddy",
         12: "Pig",
         13: "Clown",
-        14: "Spirit"
+        14: "Spirit",
         15: "Plague"
     }
 
